@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PaddleMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    private Rigidbody rb = null;
+    [SerializeField] private float speed = 100f;
+    private Rigidbody rb;
 
     private void Start()
     {
